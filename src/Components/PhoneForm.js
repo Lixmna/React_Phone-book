@@ -34,7 +34,7 @@ class PhoneForm extends React.Component {
                  onChange={this.handleChange}
                  name="phone"
                  />
-                 <div>{this.state.name} {this.state.phone}</div>
+                 <button type="submit">등록</button>
             </form>
         );
     }
