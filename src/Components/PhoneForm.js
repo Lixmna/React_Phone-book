@@ -35,6 +35,7 @@ class PhoneForm extends React.Component {
                  name="phone"
                  />
                  <button type="submit">등록</button>
+                 <div>{this.state.name} {this.state.phone} </div>
             </form>
         );
     }
